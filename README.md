@@ -122,11 +122,11 @@ The following figure shows a confusion matrix for the classification model.
 
 ### Audio Sentiment classification
 
-If you hit the server at `http://localhost:3001/api/classify` you will be able to get the following expected response that is if the request method is `POST` and you provide the file expected by the server.
+If you hit the server at `http://localhost:3001/classify` you will be able to get the following expected response that is if the request method is `POST` and you provide the file expected by the server.
 
 ### Expected Response
 
-The expected response at `http://localhost:3001/api/classify` with a file `audio` of the right format will yield the following `json` response to the client.
+The expected response at `http://localhost:3001/classify` with a file `audio` of the right format will yield the following `json` response to the client.
 
 ```json
 {
