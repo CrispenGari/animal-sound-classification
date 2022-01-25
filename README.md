@@ -163,7 +163,7 @@ To make this request with postman we do it as follows:
 4. For the `KEY` type `audio` and select the audio you want to predict under `value`
 5. Click send
 
-If everything went well you will get the following response depending on the face you have selected:
+If everything went well you will get the following response depending on the audio you have selected:
 
 ```json
 {
